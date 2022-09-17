@@ -28,7 +28,9 @@ const Home: NextPage = () => {
             ref={inputRef}
             onChange={(e) => setInput(e.target.value)}
           />
-          <ReactMarkdown children={input} className='prose dark:prose-invert p-4'/>
+          <ReactMarkdown className='prose dark:prose-invert p-4'>
+            {input}
+          </ReactMarkdown>
         </div>
       </div>
       
