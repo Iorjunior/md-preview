@@ -22,4 +22,4 @@ ___________________
 
 - [ ] Add tab
 - [ ] Add Syntax hilight
-- [ ] Add Save page
+- [x] Add Save content in localstorage
